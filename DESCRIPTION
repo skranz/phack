@@ -1,0 +1,25 @@
+Package: phack
+Type: Package
+Title: Detecting p-Hacking using Elliot et al. (2022)
+Version: 0.1.0
+Author: Sebastian Kranz based on code by Graham Elliott, Nikolay Kudrin and Kaspar Wuethrich
+Maintainer: Sebastian Kranz <sebastian.kranz@uni-ulm.de>
+Description: 
+  Implements the tests from Elliot et al. (2022) for detecting p-Hacking. 
+  The package is essentially a simple wrapper to the code provided
+  in the code and data supplement of the article, with some cosmetical changes.
+  The original code can be found in the code and data supplement of the article.
+  s
+  References
+  Elliott, G., Kudrin, N., & Wüthrich, K. (2022). Detecting p‐Hacking. Econometrica, 90(2), 887-906.
+License: GPL >= 2.0
+Depends: fdrtool,
+  pracma,
+  gdata,
+  spatstat,
+  rddensity,
+  ggplot2,
+  NlcOptim
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
