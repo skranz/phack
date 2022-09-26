@@ -2,5 +2,5 @@
 \usepackage{pdfpages}
 %\VignetteIndexEntry{author2019mypaper}
 \begin{document}
-\includepdf[pages=-, fitpaper=true]{phack_vignette.pdf}
+\includepdf[pages=-, fitpaper=true]{vignette_phack.pdf}
 \end{document}
